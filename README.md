@@ -71,17 +71,17 @@
 
 --JOINS 
 --show ORDERS where the value is NULL/ means they don't have an order
---SELECT Customers.CustomerID
---FROM Customers 
---LEFT JOIN Orders on Customers.CustomerId = Orders.CustomerID
---WHERE Orders.CustomerID is Null;
---ORDER BY Customers.CustomerID asc
-	--OR right join... it just depends how you order the tables in the query
---SELECT Customers.CustomerID
---FROM Orders 
---RIGHT JOIN Customers on Customers.CustomerId = Orders.CustomerID
---WHERE Orders.CustomerID is Null;
---ORDER BY Customers.CustomerID asc
+	--SELECT Customers.CustomerID
+	--FROM Customers 
+	--LEFT JOIN Orders on Customers.CustomerId = Orders.CustomerID
+	--WHERE Orders.CustomerID is Null;
+	--ORDER BY Customers.CustomerID asc
+		--OR right join... it just depends how you order the tables in the query
+	--SELECT Customers.CustomerID
+	--FROM Orders 
+	--RIGHT JOIN Customers on Customers.CustomerId = Orders.CustomerID
+	--WHERE Orders.CustomerID is Null;
+	--ORDER BY Customers.CustomerID asc
 
 
 --DML INSERT STATEMENT
